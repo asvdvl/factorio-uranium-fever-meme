@@ -1,12 +1,15 @@
 {
-    "title": "factorio-mod-template",
-    "name": "factorio-mod-template",
+    "title": "Uranium fever meme",
+    "name": "factorio-uranium-fever-meme",
     "author": "asvdev(in game - Dial-up)",
     "factorio_version": "1.1",
     "version": "0.0.0",
-    "dependencies": ["base >= 1.1.0"],
-    "description": "factorio-mod-template - template for my mods",
-    "homepage": "https://github.com/asvdvl/factorio-mod-template",
+    "dependencies": [
+        "base >= 1.1.0",
+        "? factorio-sync-sound-manager"
+    ],
+    "description": "Meme mod that simply replaces the sound of some machines with the uranium fever meme music",
+    "homepage": "https://github.com/asvdvl/factorio-uranium-fever-meme",
     "package":{
         "ignore":[
             "*.kra"
