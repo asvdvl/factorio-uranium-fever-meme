@@ -15,12 +15,17 @@ for name_cat, entities in pairs(defines.entities) do
     end
 end
 
+local default_volume = 50
+if data.raw and data.raw["string-setting"] and data.raw["string-setting"]["fssm-parent_name"] then
+    default_volume = 100
+end
+
 data:extend({
     {
         type = "int-setting",
         name = "fufm-volume",
         setting_type = "startup",
-        default_value = 100,
+        default_value = default_volume,
         minimum_value = 0,
         maximum_value = 100,
         order = "aa"
