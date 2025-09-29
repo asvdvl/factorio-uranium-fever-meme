@@ -8,7 +8,6 @@ Work for:
 If you enable in settings:
 - Steam turbine
 - Heat exchanger
-- Heat pipe
 
 used songs:
 1. https://www.youtube.com/watch?v=acMqxcdxE0E
